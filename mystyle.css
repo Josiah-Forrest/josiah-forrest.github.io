@@ -1,7 +1,7 @@
 body{
-      background-color: #17202A;
-    color: #F4D03F;
-  font-weight: 900;
+  background-color: blue;
+  color: white;
+  font-weight: 800;
   text-align: center;
 }
 
@@ -38,7 +38,7 @@ ul {
   height: 100%; /* Full height */
   position: fixed; /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
-  text-align: left;
+  text-align: center;
   text-decoration:underline; 
 }
 
@@ -93,7 +93,20 @@ table {
   text-align: center
 }
 h2{
-  font-size: 15px
+  font-size: 20px;
+  text-decoration: underline;
+  display: block;
+  color: white
+  
 }
-
-
+h3{
+  font-size: 16px
+}
+p {
+  letter-spacing: 2px;
+  line-height: -10px; 
+  display: block;
+}
+ul .godumb{
+  text-align: center
+}
